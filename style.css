@@ -3,7 +3,7 @@
             margin: 0px;
         }
 
-        /* 헤드 */
+        /* 헤더 */
         header{
             display : flex;
             justify-content: flex-end;
@@ -13,8 +13,16 @@
         header span{
             margin-right :10px;
             color : rgb(70, 67, 67);
-
         }
+
+        header > span:hover{
+            text-decoration: underline;
+        }
+ 
+      header > img{
+          cursor: pointer;
+      }
+
 
         /* 섹션 */
         section{
@@ -27,7 +35,7 @@
 
         section input{
             margin:25px;
-            width : 550px;
+            width : 600px;
             height : 40px;
             border-radius: 30px;
         }
@@ -35,7 +43,7 @@
         section #btn{
             display: inline-block;
         }
-       
+
         #btn button{
             all : unset;
             cursor : pointer;
@@ -52,21 +60,40 @@
 
         /* 푸터 */
         footer{
-            background-color : gray;
+            background-color : #f1f2f6;
             position : fixed;
             bottom : 0;
             width:100%;
-            height:80px;
+            height:auto;
         }
 
-        footer div{
-            margin : 5px 10px;
+        footer span {
+        margin : 10px;
         }
 
-        .footer-flex{
-            display : flex;
+        footer .footer-first-line{
+            border-top : 1px solid rgb(233, 224, 224);
+            border-bottom : 1px solid rgb(233, 224, 224);
+            height:50px;
+            display: flex;
+            align-items: center;
+            color: rgb(117, 114, 114);
+        }
+        
+        footer .footer-second-line{
+            height:50px;
+            display: flex;
             justify-content: space-between;
             align-items: center;
+            color: rgb(117, 114, 114);
         }
-   
-      
+
+        .footer-second-line > span:hover{
+            text-decoration: underline;
+        }
+
+
+
+        
+
+    
