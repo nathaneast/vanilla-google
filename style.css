@@ -1,0 +1,72 @@
+
+        body{
+            margin: 0px;
+        }
+
+        /* 헤드 */
+        header{
+            display : flex;
+            justify-content: flex-end;
+            align-items: center;
+            word-spacing: 5px;
+        }
+        header span{
+            margin-right :10px;
+            color : rgb(70, 67, 67);
+
+        }
+
+        /* 섹션 */
+        section{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin : 150px;
+        }
+
+        section input{
+            margin:25px;
+            width : 550px;
+            height : 40px;
+            border-radius: 30px;
+        }
+        
+        section #btn{
+            display: inline-block;
+        }
+       
+        #btn button{
+            all : unset;
+            cursor : pointer;
+            background-color : #f1f2f6;
+            width : auto;
+            height: 35px;
+            text-align : center;
+            margin : 0px 5px;
+            padding : 0px 15px;
+            border : 1px solid rgb(240, 236, 236);
+            border-radius : 5px;
+            color: rgb(117, 114, 114);
+        }
+
+        /* 푸터 */
+        footer{
+            background-color : gray;
+            position : fixed;
+            bottom : 0;
+            width:100%;
+            height:80px;
+        }
+
+        footer div{
+            margin : 5px 10px;
+        }
+
+        .footer-flex{
+            display : flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+   
+      
