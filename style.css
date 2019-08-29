@@ -1,122 +1,113 @@
+body{
+    margin: 0px;
+}
 
-        body{
-            margin: 0px;
-        }
+/* 헤더 */
+header{
+    display: flex;
+    justify-content: flex-end;
+    margin: 12px;
+}
 
-        /* 헤더 */
-        header{
-            display : flex;
-            justify-content: flex-end;
-            align-items: center;
-            margin : 15px;
-        }
-        header span{
-            margin-right :10px;
-            color : rgb(70, 67, 67);
-            font-size : 14px;
-        }
+header .header-menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
 
-        header > span:hover{
-            text-decoration: underline;
-        }
+.header-menu li{
+    margin-right: 15px;
+    color: rgb(70, 67, 67);
+    font-size: 14px;
+}
+
+.header-menu li:hover{
+    text-decoration: underline;
+}
  
-      header > img{
-          cursor: pointer;
-      }
+.header-menu img{
+    cursor: pointer;
+}
 
+/* 섹션 */
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 120px 0px;
+}
 
-        /* 섹션 */
-        section{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin : 150px;
-        }
+section input{
+    margin:25px;
+    width: 600px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid rgb(223, 217, 217);
+    font-size: 15px;
+}
 
-        section input{
-            margin:25px;
-            width : 600px;
-            height : 40px;
-            border-radius: 30px;
-            border : 1px solid rgb(223, 217, 217);
-            font-size: 15px;
-        }
+section input:hover{
+    box-shadow: 0 5px 5px 0 rgba(221, 215, 215, 0.2), 0 15px 25px 0 rgba(206, 201, 201, 0.19);
+}
 
-        section > input:hover{
-            box-shadow: 0 5px 5px 0 rgba(221, 215, 215, 0.2), 0 15px 25px 0 rgba(206, 201, 201, 0.19);
-        }
-        
-        section #btn{
-            display: inline-block;
-        }
+section .btn{
+    display: inline-block;
+}
 
-        #btn button{
-            all : unset;
-            cursor : pointer;
-            background-color : #f1f2f6;
-            width : auto;
-            height: 35px;
-            text-align : center;
-            margin : 0px 5px;
-            padding : 0px 15px;
-            border : 1px solid rgb(240, 236, 236);
-            border-radius : 5px;
-            color: rgb(117, 114, 114);
-        }
+.btn button{
+    all: unset;
+    cursor: pointer;
+    background-color: #f1f2f6;
+    width: auto;
+    height: 35px;
+    text-align: center;
+    margin: 0px 5px;
+    padding: 0px 15px;
+    border: 1px solid rgb(240, 236, 236);
+    border-radius: 5px;
+    color: rgb(117, 114, 114);
+}
 
-        #btn button:hover{
-            border : 1px solid rgb(173, 166, 166);
-        }
+.btn button:hover{
+    border: 1px solid rgb(173, 166, 166);
+}
 
+/* 푸터 */
+footer{
+    background-color: #f1f2f6;
+    margin-top: 210px;
+}
 
+footer div{
+    border-top: 1px solid rgb(233, 224, 224);
+}
 
-        /* 푸터 */
-        footer{
-            background-color : #f1f2f6;
-            position : fixed;
-            bottom : 0;
-            width:100%;
-            height:auto;
-        }
+footer ul{
+    display: flex;
+    /* ul 세로로 정렬되는것 가로로 */
+    margin: 0px;
+    padding: 0px 17px;
+}
 
-        footer span {
-        margin : 10px;
-        font-size : 14px;
-        }
+footer ul li{
+    list-style: none;
+    margin: 10px 13px;
+    font-size: 14px;
+    color: rgb(117, 114, 114);
+}
 
-        footer .footer-first-line{
-            border-top : 1px solid rgb(233, 224, 224);
-            border-bottom : 1px solid rgb(233, 224, 224);
-            height:40px;
-            display: flex;
-            align-items: center;
-            color: rgb(117, 114, 114);
-        }
-        
-        footer .footer-second-line{
-            height:40px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            color: rgb(117, 114, 114);
-        }
+footer .footer-second-line{
+    display : flex;
+    /* div 값들을 가로로 */
+    justify-content: space-between;
+}
 
-        .footer-second-line span:hover{
-            text-decoration: underline;
-        }
+.footer-second-line li:hover{
+    text-decoration: underline;
+}
 
-        .footer-second-line span:active{
-            color: rgb(228, 64, 64);
-        }
-
-
-
-
-      
-
-
-
-        
-
-    
+.footer-second-line li:active{
+    color: rgb(228, 64, 64);
+}
